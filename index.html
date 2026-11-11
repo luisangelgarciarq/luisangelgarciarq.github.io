@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#dce9ed">
+  <meta name="description" content="Arq. Luis Ángel García. Arquitectura funcional, diseño de viviendas, casas de campo, proyectos ejecutivos, visualización realista y seguimiento de inversiones.">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="arqluisgarcia | Arquitectura funcional">
+  <meta property="og:description" content="Espacios bien pensados, soluciones que funcionan. Conoce proyectos y servicios del Arq. Luis Ángel García.">
+  <meta property="og:image" content="assets/casa-jardin/01.webp">
+  <title>arqluisgarcia — Arquitectura funcional</title>
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+  <script src="project-data.js" defer></script>
+  <script src="app.js" defer></script>
+</head>
+<body data-page="inicio">
+  <a class="skip-link" href="#contenido">Ir al contenido</a>
+  <header class="site-header" id="arriba">
+    <a class="brand" href="index.html" aria-label="arqluisgarcia, ir al inicio">
+      <span class="brand-mark">LG<span class="brand-line"></span></span>
+      <span class="brand-copy"><strong>Luis Ángel García</strong><small>ARQUITECTURA FUNCIONAL</small></span>
+    </a>
+    <nav class="desktop-nav" aria-label="Navegación principal">
+      <a href="#proyectos">Proyectos</a><a href="#enfoque">Enfoque</a><a href="#servicios">Servicios</a><a href="#seguimiento">Inversiones</a><a href="#contacto">Contacto</a>
+    </nav>
+    <button type="button" class="menu-toggle" aria-controls="menu-movil" aria-expanded="false" aria-label="Abrir menú"><span></span><span></span><span></span></button>
+  </header>
+  <nav class="mobile-nav" id="menu-movil" aria-label="Menú móvil" hidden>
+    <a href="#inicio">Inicio</a><a href="#proyectos">Proyectos</a><a href="#enfoque">Sobre mí</a><a href="#servicios">Servicios</a><a href="#soluciones">Soluciones funcionales</a><a href="#asesoria">Asesoría online</a><a href="#seguimiento">Seguimiento de inversiones</a><a href="#contacto">Contacto</a>
+    <div class="mobile-nav-bottom"><a href="https://www.instagram.com/luis.anghell/" target="_blank" rel="noopener noreferrer">Instagram</a><a href="https://www.behance.net/arqluisgarciag" target="_blank" rel="noopener noreferrer">Behance</a></div>
+  </nav>
+
+  <main id="contenido">
+    <section class="hero" id="inicio" aria-labelledby="hero-title">
+      <div class="hero-text">
+        <p class="eyebrow"><span class="eyebrow-bar"></span> ARQUITECTURA · PERÚ</p>
+        <h1 id="hero-title">Espacios<br><em>bien pensados.</em></h1>
+        <p class="hero-subline">Soluciones que funcionan.</p>
+        <p class="hero-copy">Diseñamos viviendas y transformamos ambientes para aprovechar mejor cada metro cuadrado, con una arquitectura que responde a tu día a día.</p>
+        <div class="hero-actions"><a class="btn btn-dark" href="#proyectos">Explorar proyectos <span aria-hidden="true">↗</span></a><a class="text-link" href="#contacto">Hablemos de tu espacio <span aria-hidden="true">↗</span></a></div>
+        <div class="hero-counter" aria-live="polite"><span id="slide-number">01</span><span class="counter-rule"></span><span>04</span><span class="tiny-caption">PROYECTOS SELECCIONADOS</span></div>
+      </div>
+      <div class="hero-media">
+        <div class="hero-frame" id="hero-frame">
+          <img id="hero-image" src="assets/casa-jardin/01.webp" alt="Render de Casa Jardín" fetchpriority="high">
+          <div class="hero-photo-label"><span id="hero-project-name">Casa Jardín</span><span id="hero-project-location">Piura</span></div>
+          <button class="hero-arrow prev" aria-label="Proyecto anterior" type="button" id="hero-prev">←</button>
+          <button class="hero-arrow next" aria-label="Proyecto siguiente" type="button" id="hero-next">→</button>
+        </div>
+        <div class="hero-bottom"><span>01 / PORTAFOLIO</span><a id="hero-detail-link" href="proyecto.html?obra=casa-jardin">Ver este proyecto <span aria-hidden="true">↗</span></a></div>
+      </div>
+    </section>
+
+    <section class="section section-projects" id="proyectos">
+      <div class="section-top"><p class="eyebrow">01 / PROYECTOS</p><span class="section-side">ARQUITECTURA, RENDERS Y ESPACIOS</span></div>
+      <div class="section-heading"><h2>Arquitectura que<br><em>se puede habitar.</em></h2><p>Cuatro propuestas. Distintas necesidades y una misma prioridad: que cada espacio funcione.</p></div>
+      <div class="project-filters" role="group" aria-label="Filtrar proyectos"><button type="button" class="filter active" data-filter="all" aria-pressed="true">Todos <span>04</span></button><button type="button" class="filter" data-filter="campo" aria-pressed="false">Casa de campo</button><button type="button" class="filter" data-filter="viviendas" aria-pressed="false">Viviendas</button></div>
+      <div class="projects-grid" id="projects-grid" aria-label="Galería de proyectos"></div>
+    </section>
+
+    <section class="manifesto" id="enfoque">
+      <div class="manifesto-top"><span class="eyebrow eyebrow-light">02 / SOBRE MÍ</span><span>LG — ARQUITECTURA FUNCIONAL</span></div>
+      <div class="manifesto-grid"><h2>Diseñar no es<br><em>ocupar todo.</em></h2><div><p>Soy el Arq. Luis Ángel García. Desarrollo propuestas arquitectónicas, planos, modelados y visualizaciones, priorizando la circulación, iluminación, ventilación, privacidad y aprovechamiento real de cada ambiente.</p><p>No siempre necesitas construir más. Una buena distribución puede dar amplitud a los espacios que ya tienes.</p><a href="#soluciones" class="light-link">Conoce mi enfoque <span aria-hidden="true">↗</span></a></div></div>
+      <div class="manifesto-tags"><span>01. FUNCIONALIDAD</span><span>02. PROPORCIÓN</span><span>03. LUZ NATURAL</span><span>04. VIDA COTIDIANA</span></div>
+    </section>
+
+    <section class="section services" id="servicios">
+      <div class="section-top"><p class="eyebrow">03 / SERVICIOS</p><span class="section-side">DEL DISEÑO A LA OBRA</span></div>
+      <div class="section-heading"><h2>Del primer trazo<br><em>al espacio real.</em></h2><p>Servicios organizados para que encuentres exactamente lo que necesitas, sin complicaciones.</p></div>
+      <div class="services-grid">
+        <a href="#contacto" class="service-card"><span class="service-n">01</span><span class="service-line-icon">⌂</span><h3>Diseño de viviendas</h3><p>Viviendas unifamiliares, casas de campo, casas de playa, piscinas y terrazas.</p><span class="service-more">Consultar servicio ↗</span></a>
+        <a href="#contacto" class="service-card"><span class="service-n">02</span><span class="service-line-icon">▤</span><h3>Proyecto ejecutivo</h3><p>Planos de arquitectura, estructuras, instalaciones sanitarias y eléctricas, acabados, carpintería, piscinas y detalles de obra.</p><span class="service-more">Consultar servicio ↗</span></a>
+        <a href="#contacto" class="service-card"><span class="service-n">03</span><span class="service-line-icon">◇</span><h3>Visualización realista</h3><p>Modelado 3D con SketchUp, renders V-Ray y presentación visual de espacios.</p><span class="service-more">Consultar servicio ↗</span></a>
+        <a href="#contacto" class="service-card"><span class="service-n">04</span><span class="service-line-icon">↗</span><h3>Asesoría en obra</h3><p>Orientación arquitectónica para materiales, acabados y desarrollo de ambientes.</p><span class="service-more">Consultar servicio ↗</span></a>
+      </div>
+    </section>
+
+    <section class="solutions" id="soluciones">
+      <div class="solutions-image"><img src="assets/casa-jardin/10.webp" alt="Propuesta de sala comedor de un proyecto arquitectónico" loading="lazy"></div>
+      <div class="solutions-content"><p class="eyebrow">04 / SOLUCIONES FUNCIONALES</p><h2>¿Tu espacio no funciona<br><em>como debería?</em></h2><p>Después de una jornada de trabajo, una casa debe ofrecer comodidad, amplitud y tranquilidad. El diseño puede resolver recorridos innecesarios, falta de luz y ambientes mal aprovechados.</p><ul><li>Cocinas y dormitorios mejor distribuidos</li><li>Circulaciones y áreas reducidas</li><li>Mobiliario y almacenamiento a medida</li><li>Remodelación y ampliación de espacios</li></ul><a class="btn btn-dark" href="#contacto">Cuéntame tu idea <span aria-hidden="true">↗</span></a></div>
+    </section>
+
+    <section class="section advisory" id="asesoria"><div><p class="eyebrow">05 / ASESORÍA ONLINE</p><h2>Una idea puede empezar<br><em>con una conversación.</em></h2></div><div class="advisory-right"><p>Envíame fotografías, medidas, planos o un croquis. Revisaremos la necesidad y definiremos el alcance antes de desarrollar una propuesta arquitectónica.</p><div class="steps"><div><span>01</span>Cuéntame qué necesitas</div><div><span>02</span>Comparte medidas y fotografías</div><div><span>03</span>Definimos alcance y presupuesto</div><div><span>04</span>Desarrollamos la propuesta acordada</div></div><p class="small-note">La asesoría inicial no sustituye una evaluación estructural o una visita técnica cuando sea necesaria.</p><a class="text-link" href="https://wa.me/51942263803?text=Hola%2C%20quiero%20consultar%20una%20asesor%C3%ADa%20arquitect%C3%B3nica." target="_blank" rel="noopener noreferrer">Consultar por WhatsApp ↗</a></div></section>
+
+    <section class="investments" id="seguimiento"><div class="investments-head"><p class="eyebrow eyebrow-light">06 / GESTIÓN TÉCNICA</p><h2>Seguimiento de proyectos<br><em>e inversiones públicas.</em></h2><p>Información técnica y presupuestal para conocer el estado de proyectos y obras.</p></div><div class="investment-items"><div><span>01</span><strong>Seguimiento físico y financiero</strong><small>Avance de proyectos, valorizaciones y reportes de obra.</small></div><div><span>02</span><strong>Ejecución presupuestal</strong><small>Consulta Amigable MEF, PIM, certificación y devengados.</small></div><div><span>03</span><strong>Banco de Inversiones y SSI</strong><small>Información de inversiones y estado situacional.</small></div><div><span>04</span><strong>Transparencia y documentación</strong><small>Revisión de información pública y reportes de seguimiento.</small></div></div><a class="light-link" href="#contacto">Solicitar información ↗</a></section>
+
+    <section class="contact section" id="contacto"><div class="contact-title"><p class="eyebrow">07 / CONTACTO</p><h2>Hagamos espacio<br><em>para tu proyecto.</em></h2><p>Diseño de viviendas, optimización de ambientes y asesoría arquitectónica. Escríbeme y conversemos sobre tu idea.</p><a href="https://wa.me/51942263803?text=Hola%2C%20quisiera%20consultar%20por%20un%20servicio%20de%20arquitectura." class="btn btn-dark" target="_blank" rel="noopener noreferrer">Escribir por WhatsApp ↗</a></div><div class="contact-panel"><p class="contact-overline">DATOS PROFESIONALES</p><a class="contact-big" href="tel:+51942263803">+51 942 263 803</a><a href="mailto:arqluisanghels@gmail.com">arqluisanghels@gmail.com</a><div class="contact-social"><a href="https://www.instagram.com/luis.anghell/" target="_blank" rel="noopener noreferrer">Instagram ↗</a><a href="https://www.behance.net/arqluisgarciag" target="_blank" rel="noopener noreferrer">Behance ↗</a></div><div class="contact-form-wrap"><h3>O deja un mensaje</h3><form id="contact-form"><label>Nombre<input name="nombre" autocomplete="name" required placeholder="Tu nombre"></label><label>Correo<input name="correo" type="email" autocomplete="email" required placeholder="tu@correo.com"></label><label>Servicio<select name="servicio" required><option value="">Selecciona un servicio</option><option>Diseño de vivienda</option><option>Casa de campo o playa</option><option>Redistribución / remodelación</option><option>Visualización 3D</option><option>Asesoría online</option><option>Seguimiento de proyectos</option></select></label><label>Cuéntame tu proyecto<textarea name="mensaje" required placeholder="¿Qué deseas diseñar o mejorar?" rows="3"></textarea></label><button type="submit" class="btn btn-dark">Preparar correo ↗</button><p class="form-note">Se abrirá tu correo con el mensaje preparado; podrás adjuntar planos y fotografías antes de enviarlo. Este formulario no almacena datos.</p></form></div></div></section>
+  </main>
+  <footer class="site-footer"><div><a class="footer-brand" href="#arriba">LG / arqluisgarcia</a><p>Espacios bien pensados, soluciones que funcionan.</p></div><div><a href="#proyectos">Proyectos</a><a href="#servicios">Servicios</a><a href="#contacto">Contacto</a></div><small>© <span class="copyright-year"></span> Arq. Luis Ángel García. Portafolio profesional.</small></footer>
+  <a class="whatsapp-floating" href="https://wa.me/51942263803" aria-label="Contactar por WhatsApp" target="_blank" rel="noopener noreferrer"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M20.5 3.5A11 11 0 0 0 3.2 16.7L2 22l5.5-1.3A11 11 0 1 0 20.5 3.5ZM12 20a8.1 8.1 0 0 1-4.2-1.2l-.3-.2-3.2.7.7-3.1-.2-.3A8.1 8.1 0 1 1 12 20Zm4.4-6.1c-.2-.1-1.4-.7-1.6-.8-.2-.1-.4-.1-.6.2l-.7.8c-.2.2-.3.2-.6.1a6.7 6.7 0 0 1-3.2-2.8c-.2-.3.2-.3.6-1.1.1-.2 0-.4 0-.5l-.8-1.8c-.2-.4-.3-.3-.5-.3h-.5c-.2 0-.5.1-.7.4-.2.2-.9.9-.9 2.1 0 1.2.9 2.4 1 2.6 1.3 1.8 2.7 3.1 4.6 3.8 1.5.6 2.1.5 2.8.4.4-.1 1.4-.6 1.6-1.2.2-.6.2-1.1.1-1.2Z"/></svg></a>
+</body>
+</html>

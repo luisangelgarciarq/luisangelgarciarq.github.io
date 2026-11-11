@@ -1,0 +1,72 @@
+PORTAFOLIO WEB — ARQLUISGARCIA · VERSIÓN 2
+============================================
+
+NO BORRES TU PÁGINA ANTERIOR. ESTA ES UNA CARPETA NUEVA E INDEPENDIENTE.
+
+PASO 1 — DESCOMPRIMIR
+En Windows: clic derecho sobre el ZIP descargado > Extraer todo.
+Encontrarás una carpeta llamada PORTAFOLIO_ARQLUISGARCIA_V2.
+
+PASO 2 — COLOCARLA EN EL ESCRITORIO
+Abre tu carpeta del escritorio "PORTAFOLIO ARQUITECTURA".
+Copia DENTRO la carpeta PORTAFOLIO_ARQLUISGARCIA_V2 completa.
+NO la copies dentro de la carpeta antigua WEB-ARQUITECTURA-FUNCIONAL.
+No borres WEB-ARQUITECTURA-FUNCIONAL ni el respaldo.
+
+PASO 3 — ABRIR EN VISUAL STUDIO CODE
+Abre Visual Studio Code.
+Menú Archivo (File) > Abrir carpeta (Open Folder).
+Selecciona PORTAFOLIO ARQUITECTURA > PORTAFOLIO_ARQLUISGARCIA_V2.
+
+PASO 4 — VER LA WEB
+Busca index.html en la columna izquierda.
+Clic derecho > Open with Live Server.
+También puedes hacer clic en "Go Live" abajo a la derecha.
+Si no tienes Live Server: Extensiones > buscar "Live Server" > Instalar.
+La web se abrirá en Chrome.
+
+PASO 5 — PROBAR EN EL CELULAR
+En Chrome de la computadora: F12 o Ctrl+Shift+I.
+Haz clic en el ícono de un celular (Toggle device toolbar).
+Selecciona un tamaño de teléfono y verifica menú, galerías y fichas.
+Esta es una simulación; luego también conviene revisar en un teléfono real.
+
+ARCHIVOS PRINCIPALES
+- index.html        -> página de inicio y secciones.
+- proyecto.html      -> fichas individuales de los 4 proyectos.
+- styles.css         -> colores, tipografías, espaciado y diseño responsive.
+- app.js             -> menú, portada rotativa, galería, filtros, contacto.
+- project-data.js    -> las fichas, fotos y descripciones Word originales.
+- project-data.json  -> copia de los datos por si deseas editarlos más adelante.
+- assets/            -> 71 renders optimizados en formato WebP.
+- CONTROL_DE_IMAGENES.txt -> orden de las imágenes según los archivos nuevos.
+
+IMPORTANTE SOBRE LOS DOCUMENTOS
+Las descripciones se tomaron literalmente del cuerpo de los siguientes Word:
+7. CAJA JARDIN.docx
+6. CASA HABITACION.docx
+7. CASA UNIFAMILIAR.docx
+6. CASA HERMANO  CRUZ SILUPU INGA.docx
+El título del último Word incluye el nombre de un cliente y NO se publica.
+Por ese motivo, su título público es "Casa Patio". La descripción original no ha sido resumida ni corregida.
+Los años no documentados no se inventaron.
+
+IMPORTANTE SOBRE LAS FOTOS
+Se incluyeron todas las 71 imágenes de las carpetas RAR actualizadas.
+Conservan sus proporciones y encuadres; las 5 TIFF se convirtieron a WebP.
+Las imágenes no fueron recreadas ni modificadas geométricamente.
+Los archivos originales AutoCAD, PDF técnico, SketchUp y Word privados NO están en la carpeta pública.
+
+CONTACTO
+WhatsApp: +51 942 263 803
+Correo: arqluisanghels@gmail.com
+Instagram: https://www.instagram.com/luis.anghell/
+Behance: https://www.behance.net/arqluisgarciag
+
+El formulario prepara un mensaje en el programa de correo del visitante.
+No envía por sí mismo datos ni archivos a un servidor.
+Para adjuntar fotos/planos, el cliente debe agregarlos manualmente al correo.
+
+NO PUBLICADA
+Esta carpeta no está publicada en GitHub Pages ni en ningún otro hosting.
+Revísala primero con Live Server, y cuando apruebes la nueva versión podrás publicarla.

@@ -1,0 +1,334 @@
+[
+  {
+    "id": "casa-jardin",
+    "nombre": "Casa Jardín",
+    "tipo": "Casa de campo",
+    "ubicacion": "Piura · Urb. Sol de los Ejidos",
+    "area": "594.08 m²",
+    "numero": "01",
+    "tipo_obra": "Vivienda / Casa de campo",
+    "descripcionOriginal": "Casa de campo con área de 594.08 m2, Ubicado en la Ciudad de Piura - Perú, en la Urbanización Sol de los Ejidos.\nLa propuesta Arquitectónica responde a las necesidades del propietario, se consideró en respetar la privacidad y mucha área verde.\nEl Diseño se compone de 2 volúmenes de concreto en el exterior y un volumen de cristal en el interior destinado al área social, donde se distribuye el programa arquitectónico.\nLa Isla central del kitchen a doble altura como espacio principal del Proyecto, con vistas a la vegetación, piscinas y terrazas, es el pilar de la casa.",
+    "imagenes": [
+      {
+        "src": "assets/casa-jardin/01.webp",
+        "alt": "1 Fachada"
+      },
+      {
+        "src": "assets/casa-jardin/02.webp",
+        "alt": "2 TERRAZA 1"
+      },
+      {
+        "src": "assets/casa-jardin/03.webp",
+        "alt": "3 TERRAZA 2"
+      },
+      {
+        "src": "assets/casa-jardin/04.webp",
+        "alt": "4 TERRAZA 3"
+      },
+      {
+        "src": "assets/casa-jardin/05.webp",
+        "alt": "5 JARDIN POSTERIOR"
+      },
+      {
+        "src": "assets/casa-jardin/06.webp",
+        "alt": "6 Kitchen 1"
+      },
+      {
+        "src": "assets/casa-jardin/07.webp",
+        "alt": "7 Kitchen 2"
+      },
+      {
+        "src": "assets/casa-jardin/08.webp",
+        "alt": "8 Kitchen 3"
+      },
+      {
+        "src": "assets/casa-jardin/09.webp",
+        "alt": "9 Kitchen 4"
+      },
+      {
+        "src": "assets/casa-jardin/10.webp",
+        "alt": "9.1 Doble altura"
+      },
+      {
+        "src": "assets/casa-jardin/11.webp",
+        "alt": "10 Sala Comedor 1"
+      },
+      {
+        "src": "assets/casa-jardin/12.webp",
+        "alt": "11 Sala Comedor 2"
+      },
+      {
+        "src": "assets/casa-jardin/13.webp",
+        "alt": "12 TERRAZA 4"
+      },
+      {
+        "src": "assets/casa-jardin/14.webp",
+        "alt": "13 CARP-PORT 2"
+      }
+    ]
+  },
+  {
+    "id": "casa-habitacion",
+    "nombre": "Casa Habitación",
+    "tipo": "Vivienda",
+    "ubicacion": "",
+    "area": "",
+    "numero": "02",
+    "tipo_obra": "Vivienda / Uso residencial",
+    "descripcionOriginal": "La propuesta arquitectónica responde a las necesidades del propietario donde los niveles superiores sean destinados al alquiler de dormitorios + lavandería y el 1er nivel destinado al área social, de la misma manera la familia quería espacios libres en el ingreso y en la zona posterior. Compuesto por un volumen matriz donde se manifiesta las texturas de lamas de madera dándole un aspecto moderno, fresco y acogedor.",
+    "imagenes": [
+      {
+        "src": "assets/casa-habitacion/01.webp",
+        "alt": "1 fachada"
+      },
+      {
+        "src": "assets/casa-habitacion/02.webp",
+        "alt": "2 fachada"
+      },
+      {
+        "src": "assets/casa-habitacion/03.webp",
+        "alt": "3 fachada"
+      },
+      {
+        "src": "assets/casa-habitacion/04.webp",
+        "alt": "5 fachada"
+      },
+      {
+        "src": "assets/casa-habitacion/05.webp",
+        "alt": "11 fachada"
+      },
+      {
+        "src": "assets/casa-habitacion/06.webp",
+        "alt": "12 fachada interna"
+      },
+      {
+        "src": "assets/casa-habitacion/07.webp",
+        "alt": "cochera 1"
+      },
+      {
+        "src": "assets/casa-habitacion/08.webp",
+        "alt": "cochera 2"
+      },
+      {
+        "src": "assets/casa-habitacion/09.webp",
+        "alt": "cochera 3"
+      },
+      {
+        "src": "assets/casa-habitacion/10.webp",
+        "alt": "cochera 4"
+      },
+      {
+        "src": "assets/casa-habitacion/11.webp",
+        "alt": "kitchen 1"
+      },
+      {
+        "src": "assets/casa-habitacion/12.webp",
+        "alt": "kitchen 2"
+      },
+      {
+        "src": "assets/casa-habitacion/13.webp",
+        "alt": "sala - comedor 2"
+      },
+      {
+        "src": "assets/casa-habitacion/14.webp",
+        "alt": "Sala - comedor 3"
+      },
+      {
+        "src": "assets/casa-habitacion/15.webp",
+        "alt": "z.  Maqueta render 2"
+      },
+      {
+        "src": "assets/casa-habitacion/16.webp",
+        "alt": "z. Maqueta render 1"
+      }
+    ]
+  },
+  {
+    "id": "casa-unifamiliar",
+    "nombre": "Casa Unifamiliar",
+    "tipo": "Vivienda unifamiliar",
+    "ubicacion": "Huaral · Residencial El Olivar",
+    "area": "248.94 m² (terreno)",
+    "numero": "03",
+    "tipo_obra": "Vivienda / Diseño residencial",
+    "descripcionOriginal": "Se Diseño esta vivienda priorizando la privacidad en la fachada que da hacia la avenida, por lo que en el primer nivel no se incorporaron ventanas, evitando exposiciones directas al exterior. Al mismo tiempo, se buscó una conexión fluida con los espacios interiores. La volumetría combina concreto con amplias mamparas que permiten vistas hacia la terraza interior, convirtiéndola en el eje central y generando un ambiente de amplitud. Además, el kitchen de concepto abierto, con una isla integrada en la sala-comedor, refuerza esta conexión y ofrece visuales directas hacia la terraza.",
+    "imagenes": [
+      {
+        "src": "assets/casa-unifamiliar/01.webp",
+        "alt": "2. Fachada Principal"
+      },
+      {
+        "src": "assets/casa-unifamiliar/02.webp",
+        "alt": "2.1 Fachada cochera abierta"
+      },
+      {
+        "src": "assets/casa-unifamiliar/03.webp",
+        "alt": "2.2. Fachada accesos"
+      },
+      {
+        "src": "assets/casa-unifamiliar/04.webp",
+        "alt": "3. Fachada Con lamas de madera abiertas"
+      },
+      {
+        "src": "assets/casa-unifamiliar/05.webp",
+        "alt": "4. Fachada con lamas de madera cerradas"
+      },
+      {
+        "src": "assets/casa-unifamiliar/06.webp",
+        "alt": "5. Fachada Con cochera abierta"
+      },
+      {
+        "src": "assets/casa-unifamiliar/07.webp",
+        "alt": "7. Fachada con Interior cochera"
+      },
+      {
+        "src": "assets/casa-unifamiliar/08.webp",
+        "alt": "8. Esquina con lamas de maderas 2"
+      },
+      {
+        "src": "assets/casa-unifamiliar/09.webp",
+        "alt": "13. Fachada esquina 2"
+      },
+      {
+        "src": "assets/casa-unifamiliar/10.webp",
+        "alt": "24. Terraza  con vistas a sala comedor"
+      },
+      {
+        "src": "assets/casa-unifamiliar/11.webp",
+        "alt": "25. Terraza  con vista al dorm. princ."
+      },
+      {
+        "src": "assets/casa-unifamiliar/12.webp",
+        "alt": "27. Terraza con vistas a estudio"
+      },
+      {
+        "src": "assets/casa-unifamiliar/13.webp",
+        "alt": "32. Terraza con vistas a sala y cochera"
+      },
+      {
+        "src": "assets/casa-unifamiliar/14.webp",
+        "alt": "33. Sala Comedor kitchen"
+      },
+      {
+        "src": "assets/casa-unifamiliar/15.webp",
+        "alt": "34. Sala Comedor kitchen"
+      },
+      {
+        "src": "assets/casa-unifamiliar/16.webp",
+        "alt": "35. Corredor con closet de blancos"
+      },
+      {
+        "src": "assets/casa-unifamiliar/17.webp",
+        "alt": "36. Dormitorios de Niñas"
+      },
+      {
+        "src": "assets/casa-unifamiliar/18.webp",
+        "alt": "37. Dormitorios de Niñas con Terraza"
+      },
+      {
+        "src": "assets/casa-unifamiliar/19.webp",
+        "alt": "40. Estudio con vistas a terraza"
+      },
+      {
+        "src": "assets/casa-unifamiliar/20.webp",
+        "alt": "41. Family Room con vistas a terraza"
+      },
+      {
+        "src": "assets/casa-unifamiliar/21.webp",
+        "alt": "44. Depa Niñas kitchen 1"
+      },
+      {
+        "src": "assets/casa-unifamiliar/22.webp",
+        "alt": "45. Depa Niñas - kitchen 2"
+      },
+      {
+        "src": "assets/casa-unifamiliar/23.webp",
+        "alt": "46. Depa Niñas sala comedor"
+      },
+      {
+        "src": "assets/casa-unifamiliar/24.webp",
+        "alt": "47. Depa Niñas saña comedor + kitchen"
+      },
+      {
+        "src": "assets/casa-unifamiliar/25.webp",
+        "alt": "48. Atardecer de Kitchen"
+      },
+      {
+        "src": "assets/casa-unifamiliar/26.webp",
+        "alt": "49. Depa Niñas sala comedor 2"
+      },
+      {
+        "src": "assets/casa-unifamiliar/27.webp",
+        "alt": "50. Render Estilo Maqueta Panoramico Fachada (FINAL)"
+      },
+      {
+        "src": "assets/casa-unifamiliar/28.webp",
+        "alt": "51. Render Estilo Maqueta Panoramico Posterior (FINAL)"
+      }
+    ]
+  },
+  {
+    "id": "casa-cruz",
+    "nombre": "Casa Patio",
+    "tipo": "Vivienda",
+    "ubicacion": "Huaral · Zona Los Naturales",
+    "area": "190 m² (según descripción)",
+    "numero": "04",
+    "tipo_obra": "Vivienda / Espacios interiores",
+    "descripcionOriginal": "El proyecto se enfoca en la privacidad de la familia, en un entorno urbano definido por un pasaje angosto.\nLa vivienda se organiza en torno a una terraza con áreas verdes y un muro de piedra rústica, que es el corazón del hogar.\nEl kitchen de concepto abierto, donde se puede cocinar y compartir, ofrece vistas directas a la terraza y al jardín frontal, se integra con la sala, conectados por mamparas abatibles, ampliando el espacio y dejando entrar la luz natural.\nCASA HS de 190m2, el encargo fue desarrollar la vivienda en el 1er nivel y el 2do nivel es para el alquiler de cuartos.\nLos acabados en blanco y la vegetación generan un contraste refrescante, perfecto para el día a día. El diseño, sobrio y funcional, prioriza la armonía y la privacidad.",
+    "imagenes": [
+      {
+        "src": "assets/casa-cruz/01.webp",
+        "alt": "0.1 FACHADA PRINCIPAL"
+      },
+      {
+        "src": "assets/casa-cruz/02.webp",
+        "alt": "1. Kitchen + Living Room"
+      },
+      {
+        "src": "assets/casa-cruz/03.webp",
+        "alt": "2. Kitchen + Living Room"
+      },
+      {
+        "src": "assets/casa-cruz/04.webp",
+        "alt": "3. Kitchen + Living Room"
+      },
+      {
+        "src": "assets/casa-cruz/05.webp",
+        "alt": "4. Living Room"
+      },
+      {
+        "src": "assets/casa-cruz/06.webp",
+        "alt": "5. Living Room"
+      },
+      {
+        "src": "assets/casa-cruz/07.webp",
+        "alt": "6. Ingreso Principal"
+      },
+      {
+        "src": "assets/casa-cruz/08.webp",
+        "alt": "7. Living Room"
+      },
+      {
+        "src": "assets/casa-cruz/09.webp",
+        "alt": "9. Terraza + areas verdes"
+      },
+      {
+        "src": "assets/casa-cruz/10.webp",
+        "alt": "10. Terraza + areas verdes."
+      },
+      {
+        "src": "assets/casa-cruz/11.webp",
+        "alt": "11. Dormitorio Principal"
+      },
+      {
+        "src": "assets/casa-cruz/12.webp",
+        "alt": "12. Dormitorio dos camas"
+      },
+      {
+        "src": "assets/casa-cruz/13.webp",
+        "alt": "13. Circulacion de Habitaciones"
+      }
+    ]
+  }
+]
