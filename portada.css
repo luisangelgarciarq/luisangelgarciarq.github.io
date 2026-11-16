@@ -1,0 +1,22 @@
+.portada { background:white; color:#1b2529; min-height:100vh; min-height:100svh; display:flex; flex-direction:column; }
+.portada .site-header { background:white; border:0; backdrop-filter:none; flex-shrink:0; }
+.portada .site-header::after { content:""; position:absolute; bottom:0; left:4vw; right:4vw; height:1px; background:#242424; }
+.portada-main { flex:1; display:grid; align-items:center; padding:32px 8vw; }
+.opciones { width:min(100%,650px); margin:auto; font-size:clamp(23px,3.3vw,50px); font-weight:450; letter-spacing:-.045em; }
+.opciones > a,.opciones summary { display:flex; align-items:center; min-height:48px; padding:8px 0; cursor:pointer; }
+.opciones summary { list-style:none; gap:.55em; }
+summary::-webkit-details-marker { display:none; }
+.opciones summary::after { content:""; width:.22em; height:.22em; border:solid currentColor; border-width:0 1.5px 1.5px 0; transform:rotate(45deg); }
+details[open] > summary::after { transform:rotate(225deg); }
+.ramas { padding:4px 0 0 1em; font-size:clamp(16px,1.5vw,22px); letter-spacing:-.02em; }
+.ramas a { display:flex; align-items:center; min-height:44px; padding:6px 0; }
+.opciones a:hover,.opciones summary:hover { text-decoration:underline; text-decoration-thickness:1px; text-underline-offset:.18em; }
+.lema { margin:0 8vw; padding:18px 0 max(28px,env(safe-area-inset-bottom)); color:#555; font-size:clamp(13px,1.2vw,17px); line-height:1.5; }
+.detalle { width:min(90%,1050px); margin:clamp(40px,8vw,120px) auto; }
+.detalle h1 { max-width:17ch; margin:1em 0 .45em; font-size:clamp(38px,6vw,80px); }
+.detalle p { max-width:62ch; line-height:1.6; font-size:clamp(17px,2vw,22px); }
+.detalle .investment-items { margin:2rem 0; }
+.detalle .investment-items > div { border-color:#ccc; }
+.detalle .investment-items :is(span,strong,small) { color:#253941; }
+.consulta,.volver { display:inline-block; padding:12px 0; text-decoration:underline; text-underline-offset:4px; }
+@media (max-width:600px) { .portada-main { padding-inline:7vw; } .lema { margin-inline:7vw; } }
