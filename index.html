@@ -14,6 +14,13 @@
   <link rel="stylesheet" href="styles.css">
   <script src="project-data.js" defer></script>
   <script src="app.js" defer></script>
+  <style>
+    #seguimiento .consulting-services > div { display: flex; flex-direction: column; align-items: stretch; }
+    #seguimiento .consulting-services strong { font-weight: 400; text-align: left; line-height: 1.45; }
+    #seguimiento .consulting-services small { max-width: 65ch; }
+    @media (max-width: 700px) { #seguimiento .consulting-services { grid-template-columns: 1fr; } }
+    #seguimiento .investments-head:has(+ .consulting-services) h2 { font-size: clamp(2rem, 4.5vw, 4rem); text-wrap: balance; }
+  </style>
 </head>
 <body data-page="inicio">
   <a class="skip-link" href="#contenido">Ir al contenido</a>
@@ -87,7 +94,7 @@
     <section class="investments" id="seguimiento"><div class="investments-head"><p class="eyebrow eyebrow-light">06 / CONSULTORÍAS</p><h2>Seguimiento de proyectos<br><em>de inversión pública (PIP).</em></h2><p>Información técnica y presupuestal para conocer el estado de proyectos y obras.</p></div><div class="investment-items"><div><span>01</span><strong>Seguimiento físico y financiero</strong><small>Avance de proyectos, valorizaciones y reportes de obra.</small></div><div><span>02</span><strong>Ejecución presupuestal</strong><small>Consulta Amigable MEF, PIM, certificación y devengados.</small></div><div><span>03</span><strong>Banco de Inversiones y SSI</strong><small>Información de inversiones y estado situacional.</small></div><div><span>04</span><strong>Transparencia y documentación</strong><small>Revisión de información pública y reportes de seguimiento.</small></div></div><div class="investments-head">
         <h2>Consultoría y <em>auditoría de obras.</em></h2>
       </div>
-      <div class="investment-items">
+      <div class="investment-items consulting-services">
         <div><strong>Consultoría en obras de saneamiento</strong><small>Contamos con profesionales con años de experiencia en sistemas de agua potable y alcantarillado, pozos tubulares, unidades básicas de saneamiento (UBS), reservorios y plantas de tratamiento de aguas residuales (PTAR) y de agua potable (PTAP).</small></div>
         <div><strong>Especialistas en Auditoría de obras de ingeniería.</strong></div>
       </div>
