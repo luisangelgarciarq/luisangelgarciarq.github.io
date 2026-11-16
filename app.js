@@ -109,16 +109,16 @@
     frame.addEventListener('touchend', e => { if (touchStart === null) return; const delta = e.changedTouches[0].clientX - touchStart; if (Math.abs(delta) > 42) {show(current + (delta > 0 ? -1 : 1));start();} touchStart=null; }, {passive:true});
     show(0);
     start();
+    one('#open-contact').addEventListener('click', () => one('#contact-dialog').showModal());
     const form = one('#contact-form');
     if (form) form.addEventListener('submit', event => {
       event.preventDefault();
       if (!form.reportValidity()) return;
       const data = new FormData(form);
-      const subject = `Consulta web: ${word(data.get('servicio'))}`;
+      const subject = 'Solicitud de cotización';
       const body = [
         `Nombre: ${word(data.get('nombre'))}`,
         `Correo: ${word(data.get('correo'))}`,
-        `Servicio: ${word(data.get('servicio'))}`,
         '', 'Mensaje:', word(data.get('mensaje')),
         '', 'Adjunto los archivos del proyecto desde mi correo, si corresponde.'
       ].join('\n');

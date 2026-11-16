@@ -34,3 +34,14 @@
 
 /* Filtros discretos del portafolio */
 .project-filters{display:flex;align-items:center;gap:9px;margin:0 0 28px;flex-wrap:wrap}.filter{background:transparent;border:1px solid #bdd0d3;color:#506c74;padding:10px 15px;font-size:12px;letter-spacing:.02em}.filter span{font-variant-numeric:tabular-nums;margin-left:5px}.filter.active,.filter:hover{background:#23434e;color:white;border-color:#23434e}@media(max-width:600px){.project-filters{gap:6px;margin-bottom:22px}.filter{padding:9px 10px;font-size:11px}}
+
+.consulting h2 {font-size:clamp(26px,4vw,52px);max-width:24ch}
+.consulting h3 {margin:1.5em 0 .5em}
+.consulting p {max-width:72ch;line-height:1.7}
+#contact-dialog {margin:auto;border:0;border-radius:8px;padding:30px;width:min(440px,92vw);max-height:85dvh;overflow:auto;color:var(--dark2)}
+#contact-dialog::backdrop {background:rgb(0 0 0 / .55)}
+#contact-dialog h2 {font-size:30px;margin:0 0 20px}
+.dialog-close {float:right;font-size:24px;padding:0 8px;cursor:pointer}
+#contact-dialog details {margin-top:20px}
+#contact-dialog summary {cursor:pointer;font-weight:600}
+#detail-image[src$="/casa-habitacion/15.webp"], #detail-image[src$="/casa-habitacion/16.webp"] {object-fit:contain}
