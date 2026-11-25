@@ -20,6 +20,14 @@
     #seguimiento .consulting-services small { max-width: 65ch; }
     @media (max-width: 700px) { #seguimiento .consulting-services { grid-template-columns: 1fr; } }
     #seguimiento .investments-head:has(+ .consulting-services) h2 { font-size: clamp(2rem, 4.5vw, 4rem); text-wrap: balance; }
+    /* Identidad Cobalt: solo la sección Sobre mí. */
+    #enfoque.manifesto { background: #2F5BFF; color: #fff; }
+    #enfoque .manifesto-top, #enfoque .eyebrow, #enfoque .manifesto-grid p, #enfoque .light-link, #enfoque .manifesto-tags { color: #fff; }
+    #enfoque .manifesto-tags { border-top-color: rgba(255,255,255,.45); }
+    @media (max-width: 600px) {
+      #enfoque .manifesto-tags { grid-template-columns: repeat(2,minmax(0,1fr)); }
+      #enfoque .manifesto-tags span { min-width: 0; line-height: 1.6; overflow-wrap: break-word; }
+    }
   </style>
 </head>
 <body data-page="inicio">
@@ -70,7 +78,7 @@
     <section class="manifesto" id="enfoque">
       <div class="manifesto-top"><span class="eyebrow eyebrow-light">02 / SOBRE MÍ</span><span>LG — ARQUITECTURA PARA VIVIR</span></div>
       <div class="manifesto-grid"><h2>Diseñar no es<br><em>ocupar todo.</em></h2><div><p>Soy el Arq. Luis Ángel García. Diseño viviendas para que, al volver del trabajo, puedas desconectarte de la rutina y sentir que estás en otro lugar.</p><p>No siempre necesitas construir más. Con una buena distribución, tu casa puede sentirse más amplia y cómoda.</p><a href="#soluciones" class="light-link">Conoce mi enfoque <span aria-hidden="true">↗</span></a></div></div>
-      <div class="manifesto-tags"><span>01. FUNCIONALIDAD</span><span>02. PROPORCIÓN</span><span>03. LUZ NATURAL</span><span>04. VIDA COTIDIANA</span></div>
+      <div class="manifesto-tags"><span>01. ESPACIOS BIEN PENSADOS</span><span>02. AMBIENTES ILUMINADOS</span><span>03. EQUILIBRIO</span><span>04. VIDA COTIDIANA</span></div>
     </section>
 
     <section class="section services" id="servicios">
